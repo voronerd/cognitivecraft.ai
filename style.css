@@ -101,8 +101,8 @@ h1 {
 
 .hero-art {
     display: block;
-    width: 100%;
-    max-width: 440px;
+    width: 60%;
+    max-width: 960px;
     height: auto;
     margin: clamp(2.5rem, 6vw, 4.5rem) auto 0;
     mix-blend-mode: multiply; /* drop the JPEG's white box onto the page */
@@ -170,7 +170,7 @@ footer {
         grid-template-columns: 1fr;
         gap: 1.2rem;
     }
-    .hero-art { max-width: 300px; }
+    .hero-art { width: 88%; max-width: 420px; }
     footer {
         flex-direction: column;
         align-items: flex-start;
